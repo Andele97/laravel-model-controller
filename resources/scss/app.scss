@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/bootstrap';
+
+h1{
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+}
+
+.container{
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+header{
+  height: 80px;
+  border-bottom: 1px solid black;
+  box-shadow: 5px 0px 5px black;
+  display: flex;
+  justify-content: center;
+  ul{
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    li{
+      padding-left: 10px;
+      a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        a:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
